@@ -2,7 +2,7 @@
 Run these commands
 ```
 sudo apt-get install git-core
-git clone git://github.com/akhilnarang/scripts
+git clone https://github.com/sarthakspiker/scripts
 cd scripts
 bash <name of script>
 ```
