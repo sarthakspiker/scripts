@@ -1,0 +1,14 @@
+CHECK SUPPORT :
+          
+       modinfo ath10k_pci | grep 0041
+
+ENABLE : 
+     
+       echo "options ath10k_core skip_otp=y" | sudo tee /etc/modprobe.d/ath10k_core.conf
+
+
+
+striker@spiker:~$ sudo cp -r ath10k-firmware/ath10k/ /lib/firmware/
+striker@spiker:~$ sudo cp -r /lib/firmware/ath10k/QCA6164/hw2.1 /lib/firmware/ath10k/QCA6174/
+striker@spiker:~$ reboot
+
