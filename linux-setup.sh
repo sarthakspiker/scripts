@@ -30,6 +30,10 @@ apt-get install ubuntu-restricted-extras
 echo installing VLC
 sudo apt-get install vlc
 
+#VLC
+echo installing Docky
+sudo apt-get install docky
+
 #TLP
 echo installing TLP
 sudo add-apt-repository ppa:linrunner/tlp
