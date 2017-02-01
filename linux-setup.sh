@@ -3,11 +3,10 @@
 clear
 
 #get superuser perms
-sudo -s
 
-apt-get update
-apt-get upgrade
-apt-get dist-upgrade
+sudo apt-get update
+sudo apt-get upgrade
+sudo apt-get dist-upgrade
 
 #Android
 echo Installing Android Dependencies!
